@@ -1,0 +1,41 @@
+{
+  "name": "@jnmorse/apixu-api",
+  "version": "0.0.1",
+  "description": "Apixu Api",
+  "keywords": [
+    "api",
+    "apixu"
+  ],
+  "homepage": "https://github.com/jnmorse/apixu-api#readme",
+  "bugs": {
+    "url": "https://github.com/jnmorse/apixu-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnmorse/apixu-api.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Joseph Morse",
+    "email": "tamed.lionheart@gmail.com",
+    "url": "https://github.com/jnmorse"
+  },
+  "main": "main/apixu-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": "@jnmorse/prettier-config",
+  "dependencies": {
+    "apixu": "github:apixu/apixu-nodejs#v0.3.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@jnmorse/prettier-config": "^0.1.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.0",
+    "@types/node": "^12.0.12",
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "typescript": "^3.5.2"
+  }
+}
